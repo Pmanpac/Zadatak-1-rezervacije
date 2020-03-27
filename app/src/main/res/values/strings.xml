@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Rezervacije</string>
+
+    <!-- Input labels text values -->
+    <string name="pin_label">PIN</string>
+    <string name="restoran_label">Restoran</string>
+    <string name="datum_label">Datum</string>
+    <string name="vrijeme_label">Vrijeme</string>
+    <string name="broj_label">Broj osoba</string>
+    <string name="ime_label">Na ime</string>
+
+    <string name="datepicker">Odaberite datum</string>
+    <string name="timepicker">Odaberite vrijeme</string>
+
+</resources>
