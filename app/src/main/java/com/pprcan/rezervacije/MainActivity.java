@@ -116,6 +116,9 @@ public class MainActivity extends AppCompatActivity implements DatePickerDialog.
             }
         });
 
+
+        // Preuzeto s primjera youtube kanala  'Coding in Flow' predloženog na stranici kolegija
+
         datepickerPlaceHolder.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -133,6 +136,7 @@ public class MainActivity extends AppCompatActivity implements DatePickerDialog.
         });
     }
 
+    // Preuzeto s primjera youtube kanala  'Coding in Flow' predloženog na stranici kolegija
     @Override
     public void onDateSet(DatePicker view, int year, int month, int dayOfMonth) {
         Calendar c = Calendar.getInstance();
@@ -240,6 +244,7 @@ public class MainActivity extends AppCompatActivity implements DatePickerDialog.
         }
     }
 
+    // Preuzeto s primjera youtube kanala  'Coding in Flow' predloženog na stranici kolegija
     private void saveData(){
         SharedPreferences sharedPreferences = getSharedPreferences("shared preferences", MODE_PRIVATE);
         SharedPreferences.Editor editor= sharedPreferences.edit();
@@ -249,6 +254,7 @@ public class MainActivity extends AppCompatActivity implements DatePickerDialog.
         editor.apply();
     }
 
+    // Preuzeto s primjera youtube kanala  'Coding in Flow' predloženog na stranici kolegija
     private void loadData(){
         SharedPreferences sharedPreferences = getSharedPreferences("shared preferences", MODE_PRIVATE);
 

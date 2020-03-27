@@ -10,6 +10,8 @@ import androidx.fragment.app.DialogFragment;
 
 import java.util.Calendar;
 
+// Preuzeto s primjera youtube kanala  'Coding in Flow' predloženog na stranici kolegija
+
 public class DatePickerFragment extends DialogFragment {
 
     @NonNull

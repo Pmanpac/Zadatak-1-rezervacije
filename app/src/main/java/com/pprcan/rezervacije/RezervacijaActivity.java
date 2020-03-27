@@ -120,6 +120,9 @@ public class RezervacijaActivity extends AppCompatActivity implements DatePicker
         timepickerPlaceHolder = findViewById(R.id.timepicker);
         datepickerPlaceHolder = findViewById(R.id.datepicker);
 
+
+        // Preuzeto s primjera youtube kanala  'Coding in Flow' predloženog na stranici kolegija
+
         datepickerPlaceHolder.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -139,7 +142,7 @@ public class RezervacijaActivity extends AppCompatActivity implements DatePicker
     }
 
 
-
+    // Preuzeto s primjera youtube kanala  'Coding in Flow' predloženog na stranici kolegija
     @Override
     public void onDateSet(DatePicker view, int year, int month, int dayOfMonth) {
         Calendar c = Calendar.getInstance();
@@ -167,6 +170,8 @@ public class RezervacijaActivity extends AppCompatActivity implements DatePicker
 
         return true;
     }
+
+    // Preuzeto s primjera youtube kanala  'Coding in Flow' predloženog na stranici kolegija
 
     private void saveData(){
         SharedPreferences sharedPreferences = getSharedPreferences("shared preferences", MODE_PRIVATE);
